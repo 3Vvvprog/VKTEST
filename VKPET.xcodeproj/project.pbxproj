@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BCFCD342BAEE08B0097C44D /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFCD332BAEE08B0097C44D /* GameSettings.swift */; };
+		3BCFCD362BAEE0E50097C44D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFCD352BAEE0E50097C44D /* SettingsViewController.swift */; };
+		3BCFCD3A2BAEE2020097C44D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFCD392BAEE2020097C44D /* GameView.swift */; };
+		3BCFCD3C2BAEEFBC0097C44D /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFCD3B2BAEEFBB0097C44D /* PersonCell.swift */; };
+		3BCFCD3F2BAEF2BF0097C44D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFCD3E2BAEF2BF0097C44D /* GameViewController.swift */; };
+		3BCFCD412BAEF3BB0097C44D /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCFCD402BAEF3BB0097C44D /* AppRouter.swift */; };
 		3BEB4C482BAEC625003198B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB4C472BAEC625003198B6 /* AppDelegate.swift */; };
 		3BEB4C4A2BAEC625003198B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB4C492BAEC625003198B6 /* SceneDelegate.swift */; };
 		3BEB4C4C2BAEC625003198B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB4C4B2BAEC625003198B6 /* ViewController.swift */; };
-		3BEB4C4F2BAEC625003198B6 /* VKPET.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB4C4D2BAEC625003198B6 /* VKPET.xcdatamodeld */; };
 		3BEB4C512BAEC627003198B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BEB4C502BAEC627003198B6 /* Assets.xcassets */; };
 		3BEB4C542BAEC627003198B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BEB4C522BAEC627003198B6 /* LaunchScreen.storyboard */; };
+		3BEB4C5E2BAEC6CB003198B6 /* ViewHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB4C5D2BAEC6CB003198B6 /* ViewHost.swift */; };
+		3BEB4C612BAEC72F003198B6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEB4C602BAEC72F003198B6 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BCFCD332BAEE08B0097C44D /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		3BCFCD352BAEE0E50097C44D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3BCFCD392BAEE2020097C44D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		3BCFCD3B2BAEEFBB0097C44D /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		3BCFCD3E2BAEF2BF0097C44D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3BCFCD402BAEF3BB0097C44D /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		3BEB4C442BAEC625003198B6 /* VKPET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BEB4C472BAEC625003198B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BEB4C492BAEC625003198B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3BEB4C4B2BAEC625003198B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3BEB4C4E2BAEC625003198B6 /* VKPET.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKPET.xcdatamodel; sourceTree = "<group>"; };
 		3BEB4C502BAEC627003198B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BEB4C532BAEC627003198B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BEB4C552BAEC627003198B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BEB4C5D2BAEC6CB003198B6 /* ViewHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHost.swift; sourceTree = "<group>"; };
+		3BEB4C602BAEC72F003198B6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BCFCD322BAEE07D0097C44D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BCFCD332BAEE08B0097C44D /* GameSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BCFCD372BAEE1C60097C44D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB4C602BAEC72F003198B6 /* SettingsView.swift */,
+				3BCFCD352BAEE0E50097C44D /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3BCFCD382BAEE1D30097C44D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				3BCFCD392BAEE2020097C44D /* GameView.swift */,
+				3BCFCD3E2BAEF2BF0097C44D /* GameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		3BCFCD3D2BAEF0F20097C44D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BCFCD3B2BAEEFBB0097C44D /* PersonCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3BEB4C3B2BAEC625003198B6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +104,44 @@
 		3BEB4C462BAEC625003198B6 /* VKPET */ = {
 			isa = PBXGroup;
 			children = (
-				3BEB4C472BAEC625003198B6 /* AppDelegate.swift */,
-				3BEB4C492BAEC625003198B6 /* SceneDelegate.swift */,
+				3BCFCD3D2BAEF0F20097C44D /* Views */,
+				3BCFCD322BAEE07D0097C44D /* Models */,
+				3BEB4C5F2BAEC716003198B6 /* Screens */,
+				3BEB4C5C2BAEC69B003198B6 /* Application */,
 				3BEB4C4B2BAEC625003198B6 /* ViewController.swift */,
+				3BEB4C5B2BAEC65B003198B6 /* Resources */,
+			);
+			path = VKPET;
+			sourceTree = "<group>";
+		};
+		3BEB4C5B2BAEC65B003198B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3BEB4C502BAEC627003198B6 /* Assets.xcassets */,
 				3BEB4C522BAEC627003198B6 /* LaunchScreen.storyboard */,
 				3BEB4C552BAEC627003198B6 /* Info.plist */,
-				3BEB4C4D2BAEC625003198B6 /* VKPET.xcdatamodeld */,
 			);
-			path = VKPET;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BEB4C5C2BAEC69B003198B6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3BEB4C472BAEC625003198B6 /* AppDelegate.swift */,
+				3BEB4C492BAEC625003198B6 /* SceneDelegate.swift */,
+				3BEB4C5D2BAEC6CB003198B6 /* ViewHost.swift */,
+				3BCFCD402BAEF3BB0097C44D /* AppRouter.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3BEB4C5F2BAEC716003198B6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3BCFCD382BAEE1D30097C44D /* Game */,
+				3BCFCD372BAEE1C60097C44D /* Settings */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BEB4C4F2BAEC625003198B6 /* VKPET.xcdatamodeld in Sources */,
+				3BCFCD3F2BAEF2BF0097C44D /* GameViewController.swift in Sources */,
+				3BEB4C612BAEC72F003198B6 /* SettingsView.swift in Sources */,
 				3BEB4C4C2BAEC625003198B6 /* ViewController.swift in Sources */,
+				3BCFCD362BAEE0E50097C44D /* SettingsViewController.swift in Sources */,
+				3BCFCD3C2BAEEFBC0097C44D /* PersonCell.swift in Sources */,
+				3BCFCD342BAEE08B0097C44D /* GameSettings.swift in Sources */,
 				3BEB4C482BAEC625003198B6 /* AppDelegate.swift in Sources */,
+				3BCFCD412BAEF3BB0097C44D /* AppRouter.swift in Sources */,
+				3BEB4C5E2BAEC6CB003198B6 /* ViewHost.swift in Sources */,
+				3BCFCD3A2BAEE2020097C44D /* GameView.swift in Sources */,
 				3BEB4C4A2BAEC625003198B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +370,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P69765VZ49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VKPET/Info.plist;
+				INFOPLIST_FILE = VKPET/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -313,7 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P69765VZ49;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VKPET/Info.plist;
+				INFOPLIST_FILE = VKPET/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -353,19 +437,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3BEB4C4D2BAEC625003198B6 /* VKPET.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3BEB4C4E2BAEC625003198B6 /* VKPET.xcdatamodel */,
-			);
-			currentVersion = 3BEB4C4E2BAEC625003198B6 /* VKPET.xcdatamodel */;
-			path = VKPET.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3BEB4C3C2BAEC625003198B6 /* Project object */;
 }
